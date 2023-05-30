@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Rock Paper & Scissors Game</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/hand.png" />
+</head>
+<body>
+    <div class="wrapper">
+        <div class="game_title">
+            <h2>Scissors, Paper & Rock</h2>
+        </div>
+        <div class="game_content">
+            <div class="game_show">
+                <div class="player_1_choice">
+                    <img src="./images/hand.png" alt="main start" class="animate_1">
+                    <p>PLAYER 1</p>
+                </div>
+                <h3 id="message">Start !</h3>
+                <div class="player_2_choice">
+                    <img src="./images/hand.png" alt="main start" class="animate_2">
+                    <p>PLAYER 2</p>
+                </div>
+            </div>
+            <h3>Choose :</h3>
+            <div class="game_options">
+                <div class="option scissors">
+                    <img src="./images/scissors.png" alt="scissors" data-id="scissors">
+                    <span>Scissors</span>
+                </div>
+                <div class="option paper">
+                    <img src="./images/paper.png" alt="paper" data-id="paper">
+                    <span>Paper</span>
+                </div>
+                <div class="option rock">
+                    <img src="./images/rock.png" alt="rock" data-id="rock">
+                    <span>Rock</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
